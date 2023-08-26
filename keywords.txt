@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For EPD_Driver
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+pervasive_display_E2581KS061_demo	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+COG_initial	KEYWORD2
+COG_powerOff	KEYWORD2
+globalUpdate	KEYWORD2
+fastUpdate	KEYWORD2
+fastUpdateSet	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################

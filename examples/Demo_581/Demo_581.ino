@@ -14,8 +14,10 @@
 
 // DEMO Image Set <Comment out when in User Mode>
 #define SCREEN 581
-#include "globalupdate_src/demoImageData.h"
-#include "fastupdate_src/FuPu_Data_581.h"
+// #include "globalupdate_src/demoImageData.h"
+#include "demoImageData.h"
+// #include "fastupdate_src/FuPu_Data_581.h"
+#include "FuPu_Data_581.h"
 //------------------------------------------------------------
 
 #define EPD_SIZE eScreen_EPD_581

@@ -26,8 +26,16 @@
 void setup()
 {
 	EPD_Driver epdtest(EPD_SIZE, BOARD_TYPE);
+  
+  epdtest.globalUpdate(BW_clearpath, BW_clearpath_inverted);
+  delay(2000);
+  epdtest.fastUpdate(FastPic_clearpath_inverted, FastPic_clearpath);
 
-	epdtest.globalUpdate(BW_monoBuffer, BW_0x00Buffer);
+
+  //epdtest.globalUpdate(BW_white, BW_black);
+  //epdtest.globalUpdate(BW_black, BW_clearpath);
+	/*
+  epdtest.globalUpdate(BW_monoBuffer, BW_0x00Buffer);
 	delay(2000);
 	epdtest.fastUpdate(FastPic_2, FastPic_1);
 	epdtest.fastUpdate(FastPic_1, FastPic_2);
@@ -43,6 +51,7 @@ void setup()
   epdtest.fastUpdate(FastPic_g_50, FastPic_g_75);
   delay(2000);
   epdtest.fastUpdate(FastPic_g_75, FastPic_clearpath);
+  */
 }
 
 void loop()

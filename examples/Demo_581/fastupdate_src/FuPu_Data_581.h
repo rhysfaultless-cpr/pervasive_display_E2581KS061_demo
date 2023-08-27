@@ -18,3 +18,4 @@
 #define FastPic_g_75 (uint8_t *) & img_grey_75
 
 #define FastPic_clearpath (uint8_t *) & img_clearpath
+#define FastPic_clearpath_inverted (uint8_t *) & img_clearpath_inverted

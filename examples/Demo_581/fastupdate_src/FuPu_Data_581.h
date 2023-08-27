@@ -17,3 +17,4 @@
 #define FastPic_g_50 (uint8_t *) & img_grey_50
 #define FastPic_g_75 (uint8_t *) & img_grey_75
 
+#define FastPic_clearpath (uint8_t *) & img_clearpath

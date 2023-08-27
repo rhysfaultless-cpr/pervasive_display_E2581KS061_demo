@@ -26,6 +26,7 @@
 4.  The application manual mentions that bits are interpreted as
     - 1 = Black
     - 0 = White
+    
     This is opposite of how the PDi Apps tool outputs data.
     Per this tool:
     - 8 black pixels as (0x00)

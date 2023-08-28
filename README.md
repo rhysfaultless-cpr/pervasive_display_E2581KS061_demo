@@ -34,3 +34,4 @@
 5.  We need to use  1-bit grayscale color / monochrome images.
 6.  There was signifcant ghosting on the display.
     Refer to the [attached video](./clearpath_logo/pervasive_displays_ghosting.mp4) showing the issue.
+    There is also an [image of the ghosting](./clearpath_logo/pervasive_displays_ghosting.jpg).

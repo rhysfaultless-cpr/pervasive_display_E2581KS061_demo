@@ -34,24 +34,14 @@ void setup()
 
   //epdtest.globalUpdate(BW_white, BW_black);
   //epdtest.globalUpdate(BW_black, BW_clearpath);
-	/*
-  epdtest.globalUpdate(BW_monoBuffer, BW_0x00Buffer);
-	delay(2000);
-	epdtest.fastUpdate(FastPic_2, FastPic_1);
-	epdtest.fastUpdate(FastPic_1, FastPic_2);
-	epdtest.fastUpdate(FastPic_2, FastPic_1);
-	epdtest.fastUpdate(FastPic_1, FastPic_2);
-	delay(2000);
-	epdtest.fastUpdate(FastPic_b, FastPic_1);
-	epdtest.fastUpdate(FastPic_w, FastPic_b);
-  epdtest.fastUpdate(FastPic_b, FastPic_g_25);
-  delay(2000);
-  epdtest.fastUpdate(FastPic_g_25, FastPic_g_50);
-  delay(2000);
-  epdtest.fastUpdate(FastPic_g_50, FastPic_g_75);
-  delay(2000);
-  epdtest.fastUpdate(FastPic_g_75, FastPic_clearpath);
-  */
+  // epdtest.globalUpdate(BW_monoBuffer, BW_0x00Buffer);
+	// epdtest.fastUpdate(FastPic_2, FastPic_1);
+	// epdtest.fastUpdate(FastPic_1, FastPic_2);
+	// epdtest.fastUpdate(FastPic_2, FastPic_w);
+	// epdtest.fastUpdate(FastPic_w, FastPic_b);
+  // epdtest.fastUpdate(FastPic_b, FastPic_g_25);
+  // epdtest.fastUpdate(FastPic_g_25, FastPic_g_50);
+  // epdtest.fastUpdate(FastPic_g_50, FastPic_g_75);
 }
 
 void loop()

@@ -2,8 +2,8 @@
 
 ## components
 
-- Display: [E2581KS061|https://www.pervasivedisplays.com/product/5-81-e-ink-displays/#ptab-3]
-- Development board: [https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/]
+- Display: [E2581KS061](https://www.pervasivedisplays.com/product/5-81-e-ink-displays/#ptab-3)
+- Development board: [EXT3-1](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/)
 - Raspberry Pi Pico
 
 ## links

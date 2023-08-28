@@ -23,6 +23,8 @@
 #define EPD_SIZE eScreen_EPD_581
 #define BOARD_TYPE boardRaspberryPiPico_RP2040_EXT3
 
+EPD_Driver epdtest(EPD_SIZE, BOARD_TYPE);
+
 void setup()
 {
 	EPD_Driver epdtest(EPD_SIZE, BOARD_TYPE);

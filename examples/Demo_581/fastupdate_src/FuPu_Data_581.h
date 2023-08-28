@@ -19,3 +19,12 @@
 
 #define FastPic_clearpath (uint8_t *) & img_clearpath
 #define FastPic_clearpath_inverted (uint8_t *) & img_clearpath_inverted
+
+#define FastPic_clearpath_1 (uint8_t *) & img_clearpath_1
+#define FastPic_clearpath_1_inverted (uint8_t *) & img_clearpath_1_inverted
+#define FastPic_clearpath_2 (uint8_t *) & img_clearpath_2
+#define FastPic_clearpath_2_inverted (uint8_t *) & img_clearpath_2_inverted
+#define FastPic_clearpath_3 (uint8_t *) & img_clearpath_3
+#define FastPic_clearpath_3_inverted (uint8_t *) & img_clearpath_3_inverted
+#define FastPic_clearpath_4 (uint8_t *) & img_clearpath_4
+#define FastPic_clearpath_4_inverted (uint8_t *) & img_clearpath_4_inverted

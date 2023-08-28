@@ -51,5 +51,24 @@ void setup()
 
 void loop()
 {
+  epdtest.fastUpdate(FastPic_clearpath_1, FastPic_clearpath_1_inverted);
+  delay(1000);
+
+  epdtest.fastUpdate(FastPic_clearpath_1_inverted, FastPic_clearpath_2);
+  delay(1000);
+  epdtest.fastUpdate(FastPic_clearpath_2, FastPic_clearpath_2_inverted);
+  delay(1000);
+
+  epdtest.fastUpdate(FastPic_clearpath_2_inverted, FastPic_clearpath_3);
+  delay(1000);
+  epdtest.fastUpdate(FastPic_clearpath_3, FastPic_clearpath_3_inverted);
+  delay(1000);
+
+  epdtest.fastUpdate(FastPic_clearpath_3_inverted, FastPic_clearpath_4);
+  delay(1000);
+  epdtest.fastUpdate(FastPic_clearpath_4, FastPic_clearpath_4_inverted);
+  delay(1000);
+
+  epdtest.fastUpdate(FastPic_clearpath_4_inverted, FastPic_clearpath_1);
   delay(1000);
 }

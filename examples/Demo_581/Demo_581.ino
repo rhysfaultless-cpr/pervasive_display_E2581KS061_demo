@@ -27,12 +27,15 @@ EPD_Driver epdtest(EPD_SIZE, BOARD_TYPE);
 
 void setup()
 {
-	EPD_Driver epdtest(EPD_SIZE, BOARD_TYPE);
-  
   epdtest.globalUpdate(BW_clearpath, BW_clearpath_inverted);
-  delay(2000);
-  epdtest.fastUpdate(FastPic_clearpath_inverted, FastPic_clearpath);
+  delay(1000);
 
+  epdtest.fastUpdate(FastPic_clearpath_inverted, FastPic_clearpath);
+  delay(1000);
+  epdtest.fastUpdate(FastPic_clearpath, FastPic_clearpath_inverted);
+  delay(1000);
+  epdtest.fastUpdate(FastPic_clearpath_inverted, FastPic_clearpath_1);
+  delay(1000);
 
   //epdtest.globalUpdate(BW_white, BW_black);
   //epdtest.globalUpdate(BW_black, BW_clearpath);
